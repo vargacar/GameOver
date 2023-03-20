@@ -20,7 +20,7 @@ body {
 }
 
 .choice-prefix {
-    padding: 2rem 2.5 rem;
+    padding: 2rem 2.5rem;
     color: aliceblue;
 }
 
@@ -37,6 +37,7 @@ body {
     background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
 }
 
+
 /* heads up Display */
 #hud {
     display: flex;
@@ -52,10 +53,14 @@ body {
     text-align: center;
 }
 
+.hud-main-text2 {
+    text-align: center;
+}
+
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid greenyellow;
+    border: 0.2rem solid rgb(67, 110, 3);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -66,6 +71,16 @@ body {
     background: goldenrod;
     width: 0%;
 }
+
+#HighScore {
+    width: 30rem;
+    height: 3rem;
+    border: rem solid rgb(67, 110, 3);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 :root {
     background-color: rgb(92, 81, 81);
 }
@@ -6,16 +8,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 50;
+    font-size: 62.5%;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-H1 {
+h1 {
     font-size: 5.4rem;
     color: white;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+  
 .container {
     width: 100vw;
     height: 100hv;
@@ -87,3 +94,52 @@ H1 {
     margin-left: 1rem;
     
 }
+
+/* End Page CSS*/
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+imput {
+    margin-bottom: 1rem;
+    width:  20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 lightskyblue 0.5;
+}
+
+input::placeholder {
+    color: blanchedalmond;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+    padding: 2rem;
+    font-size: 2rem;
+   
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
+.fa-home {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+   
+
